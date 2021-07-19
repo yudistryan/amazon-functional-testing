@@ -1,0 +1,1 @@
+This repository is used as my personal project collection of functional testing using Selenium to amazon.com.
