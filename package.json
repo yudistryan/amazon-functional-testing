@@ -1,0 +1,24 @@
+{
+  "name": "functional-testing",
+  "version": "1.0.0",
+  "description": "Functional testing for Amazon",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^91.0.1",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": ""
+  },
+  "keywords": [],
+  "author": "Yudistryan Izhar",
+  "license": "ISC"
+}

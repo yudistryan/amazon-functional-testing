@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="add-product-to-list;add-particular-television-to-list" tests="14" failures="1" skipped="5">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\features\add-to-list.feature">
+            </property>
+        </properties>
+        <testcase name="Given I enter Amazon website" classname="add-product-to-list;add-particular-television-to-list" time="0.0011691">
+        </testcase>
+        <testcase name="And I search for N item in electronics category" classname="add-product-to-list;add-particular-television-to-list" time="0.0002649">
+        </testcase>
+        <testcase name="And I click the television and video subcategory" classname="add-product-to-list;add-particular-television-to-list" time="12.3469288">
+        </testcase>
+        <testcase name="And I click the television subsubcategory" classname="add-product-to-list;add-particular-television-to-list" time="3.1405152">
+        </testcase>
+        <testcase name="And I click low to high for the price sort" classname="add-product-to-list;add-particular-television-to-list" time="0.0002123">
+        </testcase>
+        <testcase name="And I click under 32 inches for the screen size filter" classname="add-product-to-list;add-particular-television-to-list" time="0.0006078">
+        </testcase>
+        <testcase name="And I click for 2017 model" classname="add-product-to-list;add-particular-television-to-list" time="0.0002683">
+        </testcase>
+        <testcase name="And I need product for less than 150 bucks" classname="add-product-to-list;add-particular-television-to-list" time="8.1268809">
+        </testcase>
+        <testcase name="And I click the first product from the search result" classname="add-product-to-list;add-particular-television-to-list" time="0.0396017">
+            <failure message="AssertionError: expected 1 to equal 0">AssertionError: expected 1 to equal 0
+    at C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\step-definitions\add-to-list.js:60:48
+    at ManagedPromise.invokeCallback_ (C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at C:\Users\MSI-PC\Desktop\Xtremax\functional-testing\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="And I click add to list" classname="add-product-to-list;add-particular-television-to-list">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And Website want me to sign in" classname="add-product-to-list;add-particular-television-to-list">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter random username" classname="add-product-to-list;add-particular-television-to-list">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I enter random password" classname="add-product-to-list;add-particular-television-to-list">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I click submit" classname="add-product-to-list;add-particular-television-to-list">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
